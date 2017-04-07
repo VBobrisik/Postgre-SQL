@@ -1,3 +1,4 @@
+-- -3 is for ' MB' change to -6 if you need to work with ' bytes'
 SELECT 
     relid::regclass AS table, 
     indexrelid::regclass AS index, 
